@@ -16,3 +16,5 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 5: Essential CSS concepts | [Solo Project: Oldagram](/Module%205:%20Essential%20CSS%20concepts/Solo%20Project:%20Oldagram/) | - |
 | Module 6: Essential JavaScript concepts | [The World's Most Annoying Cookie Consent](/Module%206:%20Essential%20JavaScript%20concepts/The%20World's%20Most%20Annoying%20Cookie%20Consent/) | - |
 | Module 6: Essential JavaScript concepts | [Pumpkin's Purrfect Meme Picker](/Module%206:%20Essential%20JavaScript%20concepts/Pumpkin's%20Purrfect%20Meme%20Picker/) | - |
+| Module 6: Essential JavaScript concepts | [Twimba: Twitter Clone](/Module%206:%20Essential%20JavaScript%20concepts/Twimba:%20Twitter%20Clone/) | - |
+| Module 6: Essential JavaScript concepts | [Solo Project: Restaurant Ordering App](/Module%206:%20Essential%20JavaScript%20concepts/Solo%20Project:%20Restaurant%20Ordering%20app/) | - |
