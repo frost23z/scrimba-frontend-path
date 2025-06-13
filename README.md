@@ -10,3 +10,7 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 3: Making websites interactive | [Counter App](/Module%203:%20Making%20websites%20interactive/Counter%20App/) | - |
 | Module 3: Making websites interactive | [Solo Project: Basketball Scoreboard](/Module%203:%20Making%20websites%20interactive/Solo%20Project:%20Basketball%20Scoreboard/) | - |
 | Module 3: Making websites interactive | [Solo Project: Password Generator](/Module%203:%20Making%20websites%20interactive/Solo%20Project:%20Password%20Generator/) | - |
+| Module 3: Making websites interactive | [Chrome Extension: Lead Tracker App](/Module%203:%20Making%20websites%20interactive/Chrome%20Extension:%20Lead%20Tracker%20App/) | - |
+| Module 3: Making websites interactive | [Solo Project: Unit Converter](/Module%203:%20Making%20websites%20interactive/Solo%20Project:%20Unit%20Converter/) | - |
+| Module 3: Making websites interactive | [Lead Tracker App Mobile](/Module%203:%20Making%20websites%20interactive/Lead%20Tracker%20App%20Mobile/) | - |
+| Module 5: Essential CSS concepts | [Solo Project: Oldagram](/Module%205:%20Essential%20CSS%20concepts/Solo%20Project:%20Oldagram/) | - |

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Oldagram</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="container header-container">
+                <img class="logo" src="images/logo.png" alt="Oldagram logo">
+                <img class="user-avatar" src="images/user-avatar.png" alt="User avatar">
+            </div>
+            <div class="container horizontal-line"></div>
+        </header>
+        <main>
+            <div class="container" id="posts-container">
+                <section class="post" id="post-0">
+                    <div class="post-header">
+                        <img class="post-avatar" src="images/avatar-vangogh.jpg" alt="Vincent van Gogh's avatar">
+                        <div class="post-user-info">
+                            <h2 class="post-user-name">Vincent van Gogh</h2>
+                            <p class="post-location">Zundert, Netherlands</p>
+                        </div>
+                    </div>
+                    <div class="post-img-container">
+                        <img class="post-img" src="images/post-vangogh.jpg" alt="Vincent van Gogh's post" data-index="0">
+                    </div>
+                    <div class="post-actions">
+                        <div class="icon-row">
+                            <img class="icon heart-icon" src="images/icon-heart.png" alt="Like" data-index="0">
+                            <img class="icon" src="images/icon-comment.png" alt="Comment">
+                            <img class="icon" src="images/icon-dm.png" alt="Direct message">
+                        </div>
+                        <p class="post-likes">21,492 likes</p>
+                        <p class="post-caption"><span class="username">vincey1853</span> just took a few mushrooms lol</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
