@@ -14,3 +14,4 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 3: Making websites interactive | [Solo Project: Unit Converter](/Module%203:%20Making%20websites%20interactive/Solo%20Project:%20Unit%20Converter/) | - |
 | Module 3: Making websites interactive | [Lead Tracker App Mobile](/Module%203:%20Making%20websites%20interactive/Lead%20Tracker%20App%20Mobile/) | - |
 | Module 5: Essential CSS concepts | [Solo Project: Oldagram](/Module%205:%20Essential%20CSS%20concepts/Solo%20Project:%20Oldagram/) | - |
+| Module 6: Essential JavaScript concepts | [The World's Most Annoying Cookie Consent](/Module%206:%20Essential%20JavaScript%20concepts/The%20World's%20Most%20Annoying%20Cookie%20Consent/) | - |
