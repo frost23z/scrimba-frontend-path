@@ -24,3 +24,4 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 6: Essential JavaScript concepts | [Pumpkin's Purrfect Meme Picker](/Module%206:%20Essential%20JavaScript%20concepts/Pumpkin's%20Purrfect%20Meme%20Picker/) | - | UI redesigned, Shows a gallery of memes |
 | Module 6: Essential JavaScript concepts | [Twimba: Twitter Clone](/Module%206:%20Essential%20JavaScript%20concepts/Twimba:%20Twitter%20Clone/) | - | User can reply to tweets, Delete tweets |
 | Module 7: Responsive design | [Responsive Site](/Module%207:%20Responsive%20design/Responsive%20Site/) | - | - |
+| Module 7: Responsive design | [Product Splash Page](/Module%207:%20Responsive%20design/Product%20Splash%20Page/) | - | Personalized with new content |
