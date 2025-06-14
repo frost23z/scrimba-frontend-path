@@ -25,3 +25,4 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 6: Essential JavaScript concepts | [Twimba: Twitter Clone](/Module%206:%20Essential%20JavaScript%20concepts/Twimba:%20Twitter%20Clone/) | - | User can reply to tweets, Delete tweets |
 | Module 7: Responsive design | [Responsive Site](/Module%207:%20Responsive%20design/Responsive%20Site/) | - | - |
 | Module 7: Responsive design | [Product Splash Page](/Module%207:%20Responsive%20design/Product%20Splash%20Page/) | - | Personalized with new content |
+| Module 7: Responsive design | [Layout with CSS Grid](/Module%207:%20Responsive%20design/Layout%20with%20CSS%20Grid/) | - | - |
