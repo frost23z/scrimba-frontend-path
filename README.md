@@ -29,3 +29,4 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 7: Responsive design | [Responsive Site](/Module%207:%20Responsive%20design/Responsive%20Site/) | - | - |
 | Module 7: Responsive design | [Product Splash Page](/Module%207:%20Responsive%20design/Product%20Splash%20Page/) | - | Personalized with new content |
 | Module 7: Responsive design | [Layout with CSS Grid](/Module%207:%20Responsive%20design/Layout%20with%20CSS%20Grid/) | - | - |
+| Module 9: Working with APIs | [Chrome Extension: Personal Dashboard](/Module%209:%20Working%20with%20APIs/Chrome%20Extension:%20Personal%20Dashboard/) | - | - |
