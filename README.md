@@ -34,3 +34,4 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 11: React Basics | [ReactFacts](/Module%2011:%20React%20basics/ReactFacts/) | - | - |
 | Module 11: React Basics | [Travel Journal](/Module%2011:%20React%20basics/Travel%20Journal/) | - | - |
 | Module 11: React Basics | [Chef Claude](/Module%2011:%20React%20basics/Chef%20Claude/) | - | - |
+| Module 11: React Basics | [Meme Generator](/Module%2011:%20React%20basics/Meme%20Generator/) | - | - |
