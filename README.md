@@ -32,3 +32,5 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 7: Responsive design | [Layout with CSS Grid](/Module%207:%20Responsive%20design/Layout%20with%20CSS%20Grid/) | - | - |
 | Module 9: Working with APIs | [Chrome Extension: Personal Dashboard](/Module%209:%20Working%20with%20APIs/Chrome%20Extension:%20Personal%20Dashboard/) | - | - |
 | Module 11: React Basics | [ReactFacts](/Module%2011:%20React%20basics/ReactFacts/) | - | - |
+| Module 11: React Basics | [Travel Journal](/Module%2011:%20React%20basics/Travel%20Journal/) | - | - |
+| Module 11: React Basics | [Chef Claude](/Module%2011:%20React%20basics/Chef%20Claude/) | - | - |
