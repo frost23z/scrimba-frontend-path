@@ -1,6 +1,5 @@
 {
-  "name": "Scrim-s06j1gs",
-  "description": "https://scrimba.com/frontend-path-c0j/~0xfa",
+  "name": "travel-journal",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -8,8 +7,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "19.0.0-rc-8b08e99e-20240713",
-    "react-dom": "19.0.0-rc-8b08e99e-20240713",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "vite": "latest"
   },
   "devDependencies": {
