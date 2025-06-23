@@ -16,6 +16,7 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 9: Working with APIs | [Color Scheme Generator](/Module%209:%20Working%20with%20APIs/Solo%20Project:%20Color%20Scheme%20Generator/) | - |
 | Module 9: Working with APIs | [Movie Watchlist](/Module%209:%20Working%20with%20APIs/Solo%20Project:%20Movie%20Watchlist/) | - |
 | Module 11: React Basics | [Solo Project: Digital Business Card](/Module%2011:%20React%20basics/Solo%20Project:%20Digital%20Business%20Card/) | - |
+| Module 11: React Basics | [Solo Project: Quizzical](/Module%2011:%20React%20basics/Solo%20Project:%20Quizzical/) | - |
 
 ## Course Projects
 
