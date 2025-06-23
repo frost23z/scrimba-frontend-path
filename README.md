@@ -35,3 +35,5 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 11: React Basics | [Travel Journal](/Module%2011:%20React%20basics/Travel%20Journal/) | - | - |
 | Module 11: React Basics | [Chef Claude](/Module%2011:%20React%20basics/Chef%20Claude/) | - | - |
 | Module 11: React Basics | [Meme Generator](/Module%2011:%20React%20basics/Meme%20Generator/) | - | - |
+| Module 11: React Basics | [Capstone Project 1: Tenzies](/Module%2011:%20React%20basics/Capstone%20Project%201:%20Tenzies/) | - | - |
+| Module 11: React Basics | [Capstone Project 2: Assembly Endgame](/Module%2011:%20React%20basics/Capstone%20Project%202:%20Assembly%20Endgame/) | - | - |
