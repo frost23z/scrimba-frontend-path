@@ -1,0 +1,46 @@
+/* Simple Switch Component */
+.switch {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.switch-track {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  background: #e5e7eb;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.switch-thumb {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  left: 2px;
+  top: 2px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ON state */
+.switch-on .switch-track {
+  background: #3b82f6;
+}
+
+.switch-on .switch-thumb {
+  transform: translateX(20px);
+}
+
+/* OFF state */
+.switch-off .switch-track {
+  background: #e5e7eb;
+}
+
+.switch-off .switch-thumb {
+  transform: translateX(0);
+}

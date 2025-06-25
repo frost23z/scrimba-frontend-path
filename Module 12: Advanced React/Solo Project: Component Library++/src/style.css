@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --navy: #1f2937;
+  --pink: #da6aec;
+  --red: #f43f5e;
+  --blue: #2f74dc;
+  --green: #22cd90;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Inter;
+  padding: 2em;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #e5e7eb;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.box.filled {
+  background-color: blue;
+}
