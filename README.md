@@ -38,3 +38,4 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 11: React Basics | [Meme Generator](/Module%2011:%20React%20basics/Meme%20Generator/) | - | - |
 | Module 11: React Basics | [Capstone Project 1: Tenzies](/Module%2011:%20React%20basics/Capstone%20Project%201:%20Tenzies/) | - | - |
 | Module 11: React Basics | [Capstone Project 2: Assembly Endgame](/Module%2011:%20React%20basics/Capstone%20Project%202:%20Assembly%20Endgame/) | - | - |
+| Module 12: Advanced React | [Van Life](/Module%2012:%20Advanced%20React/Van%20Life/) | - | Updated deps to latest versions. Fixed broken logic. |
