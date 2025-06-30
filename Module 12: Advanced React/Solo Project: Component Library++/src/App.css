@@ -1,76 +1,76 @@
 #root,
 section,
 .demo-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2em;
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	width: 100%;
 }
 
 section,
 .demo-item {
-  gap: 1em;
+	gap: 1em;
 }
 
 main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
 }
 
 main.button-demo {
-  flex-direction: column;
-  gap: 1em;
+	flex-direction: column;
+	gap: 1em;
 }
 
 main.banner-demo {
-  flex-direction: column;
-  width: 100%;
+	flex-direction: column;
+	width: 100%;
 }
 
 div.button-grid {
-  display: flex;
-  gap: 1em;
+	display: flex;
+	gap: 1em;
 }
 
 main.toggle-demo {
-  align-items: start;
+	align-items: start;
 }
 
 .demo-item-label {
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  text-align: center;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	text-align: center;
 }
 
 .badges {
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: repeat(4, auto);
+	display: grid;
+	gap: 0.5rem;
+	grid-template-columns: repeat(4, auto);
 }
 
 .banners {
-  text-align: left;
-  width: 100%;
+	text-align: left;
+	width: 100%;
 }
 
 @media (max-width: 640px) {
-  div.button-grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 1em;
-  }
+	div.button-grid {
+		display: grid;
+		grid-template-columns: auto auto;
+		gap: 1em;
+	}
 
-  .badges {
-    grid-template-columns: repeat(2, auto);
-  }
+	.badges {
+		grid-template-columns: repeat(2, auto);
+	}
 }
 
 @media (min-width: 1320px) {
-  .badges {
-    grid-template-columns: repeat(8, auto);
-  }
+	.badges {
+		grid-template-columns: repeat(8, auto);
+	}
 }

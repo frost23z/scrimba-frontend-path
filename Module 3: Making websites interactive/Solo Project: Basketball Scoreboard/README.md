@@ -1,40 +1,79 @@
 # Basketball Scoreboard
 
-A responsive, interactive basketball scoreboard built with HTML, CSS, and JavaScript. This project was developed as part of the Scrimba Frontend Developer Path.
+A responsive, interactive basketball scoreboard with game management features.
+
+![Basketball Scoreboard Screenshot](assets/demo.png)
 
 ## Features
 
-### Score Tracking
+- **Dual Team Scoring**: Track points for both HOME and GUEST teams
+- **Multiple Scoring Options**: Add 1, 2, or 3 points with dedicated buttons
+- **Period Tracking**: Display and manage game quarters/periods
+- **Game Timer**: Digital countdown with minutes and seconds display
+- **Timer Controls**: Start/pause/resume functionality for game management
+- **Reset Options**:
+    - Reset scores while maintaining period and timer
+    - Reset timer only
+    - Complete game reset (scores, period, and timer)
+- **Custom Typography**: Special basketball-style font for authentic look
 
-- Keep track of scores for both HOME and GUEST teams
-- Add points in increments of +1, +2, or +3 with dedicated buttons for each team
+## Technologies Used
 
-### Game Period Management
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Custom Font (CursedTimerUlil)
 
-- Display and track the current period (quarter) of the game
-- "Next Period" button to advance to the next period and reset the scores
-- "New Game" button to completely reset the game (scores, period, and timer)
+## How It Works
 
-### Game Timer
+1. The scoreboard initializes with zeros for both teams
+2. Point buttons add the corresponding value to the selected team's score
+3. The timer can be controlled independently with start/pause/resume functionality
+4. Period advancement automatically resets scores but maintains timer settings
+5. Various reset options provide flexibility for different game scenarios
 
-- Digital countdown timer displaying minutes and seconds (10:00 format)
-- Multi-function START/PAUSE/RESUME button:
-  - START: Begin the countdown timer
-  - PAUSE: Temporarily stop the timer
-  - RESUME: Continue the timer from where it was paused
-- RESET button to restore the timer to its initial value (10:00)
+## Code Structure
 
-### Score Management
+- **index.html**: Main HTML structure and UI elements
+- **index.css**: Styling with scoreboard visuals and responsive design
+- **index.js**: JavaScript logic for score tracking, timer, and game management
+- **assets/**: Directory containing fonts and images
 
-- "Reset Score" button to zero out both team scores while maintaining period and timer
+## Technical Implementation
 
-## How to Use
+The timer functionality uses JavaScript's setInterval for accurate time tracking:
 
-1. Open the `index.html` file in any modern web browser
-2. Use the +1, +2, and +3 buttons to add points to either team
-3. Control the game timer with the Start/Pause/Resume and Reset buttons
-4. Advance to the next period using the Next Period button
-5. For a complete restart, use the New Game button
+```javascript
+function startTimer() {
+    if (!timerRunning) {
+        timerInterval = setInterval(function () {
+            if (seconds > 0) {
+                seconds--
+            } else if (minutes > 0) {
+                minutes--
+                seconds = 59
+            } else {
+                clearInterval(timerInterval)
+                timerRunning = false
+                startBtn.textContent = 'START'
+            }
+            updateTimerDisplay()
+        }, 1000)
+        timerRunning = true
+        startBtn.textContent = 'PAUSE'
+    } else {
+        clearInterval(timerInterval)
+        timerRunning = false
+        startBtn.textContent = 'RESUME'
+    }
+}
+```
 
-## Screenshot
-![Screenshot of the Basketball Scoreboard](assets/demo.png)
+## Installation
+
+No installation required! Simply open the index.html file in any modern web browser.
+
+## Credits
+
+- Part of the Scrimba Frontend Developer Path
+- Font: Custom basketball-style font (CursedTimerUlil)

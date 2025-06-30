@@ -1,62 +1,62 @@
 .avatar {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 0.3rem solid white;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0.3rem solid white;
 }
 
 .avatar > img {
-  width: 100%;
+	width: 100%;
 }
 
 .avatar-letters {
-  background-color: #f43f5e;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
-  font-family: "Karla", sans-serif;
+	background-color: #f43f5e;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2.5rem;
+	font-family: "Karla", sans-serif;
 }
 
 .avatar-icon {
-  background-color: #1f2937;
+	background-color: #1f2937;
 }
 
 .avatar > svg {
-  height: 100%;
-  width: 100%;
-  transform: translateY(20px);
-  color: whitesmoke;
+	height: 100%;
+	width: 100%;
+	transform: translateY(20px);
+	color: whitesmoke;
 }
 
 @media (max-width: 600px) {
-  .avatar {
-    height: 100px;
-    width: 100px;
-  }
+	.avatar {
+		height: 100px;
+		width: 100px;
+	}
 }
 
 .navy {
-  background-color: #1f2937;
+	background-color: #1f2937;
 }
 
 .pink {
-  background-color: #da6aec;
+	background-color: #da6aec;
 }
 
 .red {
-  background-color: #f43f5e;
+	background-color: #f43f5e;
 }
 
 .blue {
-  background-color: #2f74dc;
+	background-color: #2f74dc;
 }
 
 .green {
-  background-color: #22cd90;
+	background-color: #22cd90;
 }

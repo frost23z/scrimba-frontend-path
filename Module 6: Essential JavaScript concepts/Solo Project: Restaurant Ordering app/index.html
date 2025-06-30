@@ -1,13 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Jimmy's Diner</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="index.css" />
     </head>
     <body>
         <header class="header">
@@ -16,25 +19,30 @@
                 <p class="header-subtitle">Your favorite place for delicious food!</p>
             </div>
         </header>
-        
+
         <main class="main">
             <div class="menu-container">
                 <div id="menu-items" class="menu-items"></div>
             </div>
-            
+
             <div id="order-section" class="order-section hidden">
                 <h2 class="order-title">Your order</h2>
                 <div id="order-items" class="order-items"></div>
-                
+
                 <!-- Coupon Section -->
                 <div class="coupon-section">
                     <div class="coupon-input-container">
-                        <input type="text" id="coupon-input" class="coupon-input" placeholder="Enter coupon code">
+                        <input
+                            type="text"
+                            id="coupon-input"
+                            class="coupon-input"
+                            placeholder="Enter coupon code"
+                        />
                         <button id="apply-coupon-btn" class="apply-coupon-btn">Apply</button>
                     </div>
                     <div id="coupon-message" class="coupon-message hidden"></div>
                 </div>
-                
+
                 <div class="order-total">
                     <div id="discount-line" class="discount-line hidden">
                         <span class="discount-label">Discount:</span>
@@ -47,10 +55,12 @@
                 </div>
                 <button id="complete-order-btn" class="complete-order-btn">Complete order</button>
             </div>
-            
+
             <div id="order-complete" class="order-complete hidden">
                 <div class="order-complete-content">
-                    <p class="order-complete-text">Thanks, <span id="customer-name"></span>! Your order is on its way!</p>
+                    <p class="order-complete-text">
+                        Thanks, <span id="customer-name"></span>! Your order is on its way!
+                    </p>
                     <div class="rating-section">
                         <p class="rating-prompt">How was your experience?</p>
                         <div class="rating-stars">
@@ -60,27 +70,48 @@
                             <button class="star-btn" data-rating="4">⭐</button>
                             <button class="star-btn" data-rating="5">⭐</button>
                         </div>
-                        <p id="rating-message" class="rating-message hidden">Thank you for your feedback!</p>
+                        <p id="rating-message" class="rating-message hidden">
+                            Thank you for your feedback!
+                        </p>
                     </div>
                 </div>
             </div>
         </main>
-        
+
         <!-- Payment Modal -->
         <div id="payment-modal" class="modal hidden">
             <div class="modal-content">
                 <h2 class="modal-title">Enter card details</h2>
                 <form id="payment-form" class="payment-form">
-                    <input type="text" id="card-name" class="form-input" placeholder="Enter your name" required>
-                    <input type="text" id="card-number" class="form-input" placeholder="Enter card number" required maxlength="19">
-                    <input type="text" id="card-cvv" class="form-input" placeholder="Enter CVV" required maxlength="3">
+                    <input
+                        type="text"
+                        id="card-name"
+                        class="form-input"
+                        placeholder="Enter your name"
+                        required
+                    />
+                    <input
+                        type="text"
+                        id="card-number"
+                        class="form-input"
+                        placeholder="Enter card number"
+                        required
+                        maxlength="19"
+                    />
+                    <input
+                        type="text"
+                        id="card-cvv"
+                        class="form-input"
+                        placeholder="Enter CVV"
+                        required
+                        maxlength="3"
+                    />
                     <button type="submit" class="pay-btn">Pay</button>
                 </form>
             </div>
         </div>
-        
+
         <script type="module" src="data.js"></script>
         <script type="module" src="index.js"></script>
     </body>
 </html>
-

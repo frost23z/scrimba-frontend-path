@@ -1,187 +1,188 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    background-color: #f5f5f5;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+	background-color: #f5f5f5;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px 20px;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 20px;
 }
 
 .controls {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+	flex-wrap: wrap;
 }
 
 .color-input-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
 #colorPicker {
-    width: 60px;
-    height: 40px;
-    border: 2px solid #ddd;
-    border-radius: 6px;
-    cursor: pointer;
-    background: none;
+	width: 60px;
+	height: 40px;
+	border: 2px solid #ddd;
+	border-radius: 6px;
+	cursor: pointer;
+	background: none;
 }
 
 #colorPicker::-webkit-color-swatch-wrapper {
-    padding: 0;
+	padding: 0;
 }
 
 #colorPicker::-webkit-color-swatch {
-    border: none;
-    border-radius: 4px;
+	border: none;
+	border-radius: 4px;
 }
 
 .color-label {
-    font-weight: 500;
-    color: #374151;
-    font-size: 14px;
+	font-weight: 500;
+	color: #374151;
+	font-size: 14px;
 }
 
 .scheme-select-container select {
-    padding: 10px 15px;
-    border: 2px solid #ddd;
-    border-radius: 6px;
-    background: white;
-    font-size: 14px;
-    font-weight: 500;
-    color: #374151;
-    cursor: pointer;
-    min-width: 150px;
+	padding: 10px 15px;
+	border: 2px solid #ddd;
+	border-radius: 6px;
+	background: white;
+	font-size: 14px;
+	font-weight: 500;
+	color: #374151;
+	cursor: pointer;
+	min-width: 150px;
 }
 
 .scheme-select-container select:focus {
-    outline: none;
-    border-color: #3B82F6;
+	outline: none;
+	border-color: #3b82f6;
 }
 
 #generateBtn {
-    background: #374151;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
-    font-weight: 500;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.2s;
+	background: #374151;
+	color: white;
+	border: none;
+	padding: 12px 24px;
+	border-radius: 6px;
+	font-weight: 500;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background-color 0.2s;
 }
 
 #generateBtn:hover {
-    background: #1F2937;
+	background: #1f2937;
 }
 
 #generateBtn:active {
-    transform: translateY(1px);
+	transform: translateY(1px);
 }
 
 .color-scheme {
-    display: flex;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    min-height: 400px;
+	display: flex;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+	min-height: 400px;
 }
 
 .color-item {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px;
-    position: relative;
-    cursor: pointer;
-    transition: transform 0.2s;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px;
+	position: relative;
+	cursor: pointer;
+	transition: transform 0.2s;
 }
 
 .color-item:hover {
-    transform: scale(1.02);
-    z-index: 1;
+	transform: scale(1.02);
+	z-index: 1;
 }
 
 .color-hex {
-    background: rgba(255, 255, 255, 0.9);
-    color: #374151;
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 14px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    transition: all 0.2s;
+	background: rgba(255, 255, 255, 0.9);
+	color: #374151;
+	padding: 8px 12px;
+	border-radius: 6px;
+	font-weight: 600;
+	font-size: 14px;
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	transition: all 0.2s;
 }
 
 .color-item:hover .color-hex {
-    background: rgba(255, 255, 255, 1);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	background: rgba(255, 255, 255, 1);
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .color-item.copied .color-hex {
-    background: #10B981;
-    color: white;
+	background: #10b981;
+	color: white;
 }
 
 .empty-state {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #9CA3AF;
-    font-size: 16px;
-    font-weight: 500;
-    background: white;
-    border-radius: 8px;
-    min-height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #9ca3af;
+	font-size: 16px;
+	font-weight: 500;
+	background: white;
+	border-radius: 8px;
+	min-height: 200px;
 }
 
 @media (max-width: 768px) {
-    .controls {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 15px;
-    }
-    
-    .color-input-container {
-        justify-content: center;
-    }
-    
-    .color-scheme {
-        flex-direction: column;
-        min-height: auto;
-    }
-    
-    .color-item {
-        min-height: 100px;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .color-item:hover {
-        transform: none;
-    }
+	.controls {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 15px;
+	}
+
+	.color-input-container {
+		justify-content: center;
+	}
+
+	.color-scheme {
+		flex-direction: column;
+		min-height: auto;
+	}
+
+	.color-item {
+		min-height: 100px;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.color-item:hover {
+		transform: none;
+	}
 }

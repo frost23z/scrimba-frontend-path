@@ -8,10 +8,10 @@ A sleek, modern password generator that creates secure, customizable passwords w
 
 - **Generate Two Passwords Simultaneously**: Create two random passwords at once
 - **Customizable Password Length**: Choose any length from 6 to 30 characters (default: 15)
-- **Character Type Options**: 
-  - Toggle uppercase letters
-  - Toggle numbers
-  - Toggle special symbols
+- **Character Type Options**:
+    - Toggle uppercase letters
+    - Toggle numbers
+    - Toggle special symbols
 - **One-Click Copy**: Copy any generated password to clipboard with a single click
 - **Visual Feedback**: Confirmation message appears when a password is copied
 - **Responsive Design**: Works on desktop and mobile devices
@@ -27,8 +27,8 @@ A sleek, modern password generator that creates secure, customizable passwords w
 
 1. The app generates random passwords using JavaScript's Math.random() function
 2. Users can customize their passwords by:
-   - Adjusting the password length
-   - Selecting which character types to include (lowercase always included)
+    - Adjusting the password length
+    - Selecting which character types to include (lowercase always included)
 3. When the "Generate passwords" button is clicked, two unique passwords are created
 4. Clicking on a password copies it to the clipboard using the Clipboard API
 
@@ -44,16 +44,16 @@ The password generation algorithm:
 
 ```javascript
 function generateRandomPassword() {
-    let password = "";
-    const charSet = getCharacterSet();
-    const passwordLength = parseInt(passwordLengthEl.value) || DEFAULT_PASSWORD_LENGTH;
-    
+    let password = ''
+    const charSet = getCharacterSet()
+    const passwordLength = parseInt(passwordLengthEl.value) || DEFAULT_PASSWORD_LENGTH
+
     for (let i = 0; i < passwordLength; i++) {
-        const randomIndex = Math.floor(Math.random() * charSet.length);
-        password += charSet[randomIndex];
+        const randomIndex = Math.floor(Math.random() * charSet.length)
+        password += charSet[randomIndex]
     }
-    
-    return password;
+
+    return password
 }
 ```
 

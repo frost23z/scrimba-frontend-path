@@ -1,12 +1,12 @@
 .star {
-  height: 30px;
-  width: 30px;
-  cursor: pointer;
-  transition: color 0.5s ease-in-out;
-  user-select: none;
-  color: #fbbf24;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	transition: color 0.5s ease-in-out;
+	user-select: none;
+	color: #fbbf24;
 }
 
 .star.filled {
-  color: #fbbf24;
+	color: #fbbf24;
 }

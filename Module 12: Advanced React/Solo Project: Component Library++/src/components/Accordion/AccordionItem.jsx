@@ -1,20 +1,15 @@
-import React from "react";
-import { AccordionContext } from "./Accordion";
-import AccordionTitle from "./AccordionTitle";
-import AccordionContent from "./AccordionContent";
+import React from "react"
+import { AccordionContext } from "./Accordion"
+import AccordionContent from "./AccordionContent"
+import AccordionTitle from "./AccordionTitle"
 
-export default function AccordionItem({
-  title,
-  children,
-  defaultOpen = false,
-  id,
-}) {
-  const itemId = id || title;
+export default function AccordionItem({ title, children, defaultOpen = false, id }) {
+	const itemId = id || title
 
-  return (
-    <div className="accordion-item">
-      <AccordionTitle id={itemId}>{title}</AccordionTitle>
-      <AccordionContent id={itemId}>{children}</AccordionContent>
-    </div>
-  );
+	return (
+		<div className="accordion-item">
+			<AccordionTitle id={itemId}>{title}</AccordionTitle>
+			<AccordionContent id={itemId}>{children}</AccordionContent>
+		</div>
+	)
 }

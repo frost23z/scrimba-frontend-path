@@ -17,42 +17,48 @@ You are an assistant that receives a list of ingredients that a user has and sug
 // API keys private.
 
 const anthropic = new Anthropic({
-    // Make sure you set an environment variable in Scrimba 
-    // for ANTHROPIC_API_KEY
-    apiKey: process.env.ANTHROPIC_API_KEY,
-    dangerouslyAllowBrowser: true,
+	// Make sure you set an environment variable in Scrimba
+	// for ANTHROPIC_API_KEY
+	apiKey: process.env.ANTHROPIC_API_KEY,
+	dangerouslyAllowBrowser: true
 })
 
 export async function getRecipeFromChefClaude(ingredientsArr) {
-    const ingredientsString = ingredientsArr.join(", ")
+	const ingredientsString = ingredientsArr.join(", ")
 
-    const msg = await anthropic.messages.create({
-        model: "claude-3-haiku-20240307",
-        max_tokens: 1024,
-        system: SYSTEM_PROMPT,
-        messages: [
-            { role: "user", content: `I have ${ingredientsString}. Please give me a recipe you'd recommend I make!` },
-        ],
-    });
-    return msg.content[0].text
+	const msg = await anthropic.messages.create({
+		model: "claude-3-haiku-20240307",
+		max_tokens: 1024,
+		system: SYSTEM_PROMPT,
+		messages: [
+			{
+				role: "user",
+				content: `I have ${ingredientsString}. Please give me a recipe you'd recommend I make!`
+			}
+		]
+	})
+	return msg.content[0].text
 }
 
 const hf = new InferenceClient(process.HF_ACCESS_TOKEN)
 console.log("Token", process.HF_ACCESS_TOKEN)
 
 export async function getRecipeFromMistral(ingredientsArr) {
-    const ingredientsString = ingredientsArr.join(", ")
-    try {
-        const response = await hf.chatCompletion({ 
-            provider: "hf-inference",
-            model: "mistralai/Mixtral-8x7B-Instruct-v0.1",
-            messages: [
-                { role: "user", content: `I have ${ingredientsString}. Please give me a recipe you'd recommend I make!` },
-            ],
-            max_tokens: 1024,
-        })
-        return response.choices[0].message.content
-    } catch (err) {
-        console.error(err.message)
-    }
+	const ingredientsString = ingredientsArr.join(", ")
+	try {
+		const response = await hf.chatCompletion({
+			provider: "hf-inference",
+			model: "mistralai/Mixtral-8x7B-Instruct-v0.1",
+			messages: [
+				{
+					role: "user",
+					content: `I have ${ingredientsString}. Please give me a recipe you'd recommend I make!`
+				}
+			],
+			max_tokens: 1024
+		})
+		return response.choices[0].message.content
+	} catch (err) {
+		console.error(err.message)
+	}
 }

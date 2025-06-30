@@ -1,202 +1,204 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
 }
 
 /* typography and icons */
 
-h1{
-    color: #0F8CDF;
-    margin-bottom: 10px;
-    font-size: 20px;
+h1 {
+	color: #0f8cdf;
+	margin-bottom: 10px;
+	font-size: 20px;
 }
 
-i{
-    font-size: 15px;
-    cursor: pointer;
+i {
+	font-size: 15px;
+	cursor: pointer;
 }
 
-.fa-solid{
-    color: #999;
+.fa-solid {
+	color: #999;
 }
 
-.liked{
-    color: red;
+.liked {
+	color: red;
 }
 
 .retweeted {
-  color: limegreen;
+	color: limegreen;
 }
 
 /* layout */
 
-main, header{
-    width: 290px;
-    margin: 0 auto;
+main,
+header {
+	width: 290px;
+	margin: 0 auto;
 }
 
-header{
-    padding-bottom: 25px;
+header {
+	padding-bottom: 25px;
 }
 
 .tweet-input-area {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
 }
 
 /* textareas + btn */
 
-textarea{
-    border: none;
-    resize: none;
-    padding: 10px;
-    margin: 0 0 20px 0;
-    height: 60px;
-    width: 100%;
-    font-size: 20px;
-    line-height: 30px;
+textarea {
+	border: none;
+	resize: none;
+	padding: 10px;
+	margin: 0 0 20px 0;
+	height: 60px;
+	width: 100%;
+	font-size: 20px;
+	line-height: 30px;
 }
 
-button{
-    background-color: #1DA1F2;
-    border: none;
-    color: white;
-    padding: 10px 19px;
-    border-radius: 20px;
-    width: 100%; 
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
+button {
+	background-color: #1da1f2;
+	border: none;
+	color: white;
+	padding: 10px 19px;
+	border-radius: 20px;
+	width: 100%;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 600;
 }
 
 /* tweet */
 
-.tweet{
-    border-top: 1px solid lightgray;
-    padding: 20px 0 0 0;
-    width: 100%;
-    margin: 15px 0;
+.tweet {
+	border-top: 1px solid lightgray;
+	padding: 20px 0 0 0;
+	width: 100%;
+	margin: 15px 0;
 }
 
-.tweet-inner{
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
+.tweet-inner {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
 }
 
-.tweet-details{
-    display: flex;
-    font-size: 13px;
-    justify-content: space-between;
-    width: 160px;
+.tweet-details {
+	display: flex;
+	font-size: 13px;
+	justify-content: space-between;
+	width: 160px;
 }
 
-.tweet-detail{
-    display: flex;
-    gap: 4px;
+.tweet-detail {
+	display: flex;
+	gap: 4px;
 }
 
-.tweet-reply{
-    border-top: 1px solid lightgray;
-    padding: 20px 0 0 0px;
-    margin: 10px 0 10px 40px;
-    width: 80%;
+.tweet-reply {
+	border-top: 1px solid lightgray;
+	padding: 20px 0 0 0px;
+	margin: 10px 0 10px 40px;
+	width: 80%;
 }
 
-.handle{
-    font-size: 12px;
-    font-weight: 500;
-    color: #555;
-    margin-top: 0;
+.handle {
+	font-size: 12px;
+	font-weight: 500;
+	color: #555;
+	margin-top: 0;
 }
 
-.tweet-text{
-    width: 207px;
-    font-size: 14px;
-    line-height: 20px;
+.tweet-text {
+	width: 207px;
+	font-size: 14px;
+	line-height: 20px;
 }
 
 /* images */
 
-.profile-pic{
-    border: 1px solid lightgray;
-    border-radius: 50%;
-    width: 48px;
+.profile-pic {
+	border: 1px solid lightgray;
+	border-radius: 50%;
+	width: 48px;
 }
 
 /* utility */
-.hidden{
-    display: none;
+.hidden {
+	display: none;
 }
 
 /* New styles for reply functionality */
 .reply-input-area {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 10px 0 10px 40px;
-    width: 80%;
-    border-left: 2px solid #1DA1F2;
-    padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 10px 0 10px 40px;
+	width: 80%;
+	border-left: 2px solid #1da1f2;
+	padding-left: 10px;
 }
 
 .reply-to-info {
-    width: 100%;
-    font-size: 12px;
-    color: #1DA1F2;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #eee;
+	width: 100%;
+	font-size: 12px;
+	color: #1da1f2;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
 }
 
 .reply-input-container {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    gap: 10px;
+	display: flex;
+	align-items: flex-start;
+	width: 100%;
+	gap: 10px;
 }
 
 .reply-input-area textarea {
-    height: 40px;
-    font-size: 14px;
-    margin-bottom: 10px;
-    flex-grow: 1;
+	height: 40px;
+	font-size: 14px;
+	margin-bottom: 10px;
+	flex-grow: 1;
 }
 
 .reply-input-area .profile-pic {
-    width: 30px;
-    margin-bottom: 5px;
+	width: 30px;
+	margin-bottom: 5px;
 }
 
 .reply-btn {
-    font-size: 14px;
-    padding: 5px 10px;
-    width: 80px;
-    margin-left: auto;
-    background-color: #1DA1F2;
+	font-size: 14px;
+	padding: 5px 10px;
+	width: 80px;
+	margin-left: auto;
+	background-color: #1da1f2;
 }
 
 /* Delete button styling */
 .fa-trash {
-    color: #999;
-    cursor: pointer;
+	color: #999;
+	cursor: pointer;
 }
 
 .fa-trash:hover {
-    color: red;
+	color: red;
 }
 
 .delete-btn {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 /* Reply details styling */
 .reply-details {
-    display: flex;
-    font-size: 12px;
-    font-weight: 500;
-    gap: 4px;
-    margin-top: 5px;
+	display: flex;
+	font-size: 12px;
+	font-weight: 500;
+	gap: 4px;
+	margin-top: 5px;
 }

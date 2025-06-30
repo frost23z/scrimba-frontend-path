@@ -1,49 +1,49 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
+	box-sizing: border-box;
+	margin: 0;
 }
 
 body {
-  font-family: "Karla", sans-serif;
-  background-color: #f5f7fb;
-  color: #293264;
-  min-height: 100vh;
+	font-family: "Karla", sans-serif;
+	background-color: #f5f7fb;
+	color: #293264;
+	min-height: 100vh;
 }
 
 #root {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
 
 /* blob for top right */
 #root::before {
-  content: "";
-  position: fixed;
-  width: 297px;
-  height: 235px;
-  top: -100px;
-  right: -100px;
-  background: #fffad1;
-  border-radius: 50% 30% 70% 40%;
-  transform: rotate(-128.49deg);
-  z-index: -1;
+	content: "";
+	position: fixed;
+	width: 297px;
+	height: 235px;
+	top: -100px;
+	right: -100px;
+	background: #fffad1;
+	border-radius: 50% 30% 70% 40%;
+	transform: rotate(-128.49deg);
+	z-index: -1;
 }
 
 /* blob for bottom left */
 #root::after {
-  content: "";
-  position: fixed;
-  width: 297px;
-  height: 235px;
-  bottom: -100px;
-  left: -100px;
-  background: #deebf8;
-  border-radius: 40% 70% 30% 50%;
-  transform: rotate(45deg);
-  z-index: -1;
+	content: "";
+	position: fixed;
+	width: 297px;
+	height: 235px;
+	bottom: -100px;
+	left: -100px;
+	background: #deebf8;
+	border-radius: 40% 70% 30% 50%;
+	transform: rotate(45deg);
+	z-index: -1;
 }

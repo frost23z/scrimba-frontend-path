@@ -41,24 +41,24 @@ The conversion logic uses predefined formulas for accuracy:
 
 ```javascript
 function convertUnits() {
-    const inputValue = Number(inputEl.value);
-    
+    const inputValue = Number(inputEl.value)
+
     // Length conversions
-    const metersToFeet = (inputValue * 3.281).toFixed(3);
-    const feetToMeters = (inputValue / 3.281).toFixed(3);
-    
+    const metersToFeet = (inputValue * 3.281).toFixed(3)
+    const feetToMeters = (inputValue / 3.281).toFixed(3)
+
     // Volume conversions
-    const litersToGallons = (inputValue * 0.264).toFixed(3);
-    const gallonsToLiters = (inputValue / 0.264).toFixed(3);
-    
+    const litersToGallons = (inputValue * 0.264).toFixed(3)
+    const gallonsToLiters = (inputValue / 0.264).toFixed(3)
+
     // Mass conversions
-    const kilosToPounds = (inputValue * 2.204).toFixed(3);
-    const poundsToKilos = (inputValue / 2.204).toFixed(3);
-    
+    const kilosToPounds = (inputValue * 2.204).toFixed(3)
+    const poundsToKilos = (inputValue / 2.204).toFixed(3)
+
     // Update DOM elements with conversion results
-    lengthEl.textContent = `${inputValue} meters = ${metersToFeet} feet | ${inputValue} feet = ${feetToMeters} meters`;
-    volumeEl.textContent = `${inputValue} liters = ${litersToGallons} gallons | ${inputValue} gallons = ${gallonsToLiters} liters`;
-    massEl.textContent = `${inputValue} kilos = ${kilosToPounds} pounds | ${inputValue} pounds = ${poundsToKilos} kilos`;
+    lengthEl.textContent = `${inputValue} meters = ${metersToFeet} feet | ${inputValue} feet = ${feetToMeters} meters`
+    volumeEl.textContent = `${inputValue} liters = ${litersToGallons} gallons | ${inputValue} gallons = ${gallonsToLiters} liters`
+    massEl.textContent = `${inputValue} kilos = ${kilosToPounds} pounds | ${inputValue} pounds = ${poundsToKilos} kilos`
 }
 ```
 

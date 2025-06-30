@@ -1,11 +1,12 @@
 export const blogPosts = [
-    {
-        id: 'dishonored-1',
-        title: 'Dishonored: The Art of Choice',
-        date: 'NOVEMBER 20, 2024',
-        image: 'images/dishonored-1.jpg',
-        excerpt: 'A masterpiece of stealth gameplay where every choice matters. Exploring Dunwall\'s dark secrets and supernatural powers.',
-        content: `
+	{
+		id: "dishonored-1",
+		title: "Dishonored: The Art of Choice",
+		date: "NOVEMBER 20, 2024",
+		image: "images/dishonored-1.jpg",
+		excerpt:
+			"A masterpiece of stealth gameplay where every choice matters. Exploring Dunwall's dark secrets and supernatural powers.",
+		content: `
             <h1>Dishonored: The Art of Choice</h1>
             <img src="images/dishonored-1.jpg" alt="Dishonored" class="blog-hero-image">
             
@@ -19,14 +20,15 @@ export const blogPosts = [
             
             <p>Dishonored proves that the best games don't just entertain—they make us think, reflect, and question our own choices both in-game and in life.</p>
         `
-    },
-    {
-        id: 'dishonored-2',
-        title: 'Dishonored 2: Evolution of Power',
-        date: 'OCTOBER 15, 2024',
-        image: 'images/dishonored-2.jpg',
-        excerpt: 'Playing as Emily or Corvo, exploring new powers and the beautiful yet dangerous city of Karnaca.',
-        content: `
+	},
+	{
+		id: "dishonored-2",
+		title: "Dishonored 2: Evolution of Power",
+		date: "OCTOBER 15, 2024",
+		image: "images/dishonored-2.jpg",
+		excerpt:
+			"Playing as Emily or Corvo, exploring new powers and the beautiful yet dangerous city of Karnaca.",
+		content: `
             <h1>Dishonored 2: Evolution of Power</h1>
             <img src="images/dishonored-2.jpg" alt="Dishonored 2" class="blog-hero-image">
             
@@ -40,14 +42,15 @@ export const blogPosts = [
             
             <p>Dishonored 2 proves that sequels can innovate while staying true to what made the original special.</p>
         `
-    },
-    {
-        id: 'tomb-raider-2012',
-        title: 'Tomb Raider (2012): Lara Croft Reborn',
-        date: 'SEPTEMBER 8, 2024',
-        image: 'images/tomb-raider-2012.jpeg',
-        excerpt: 'The reboot that transformed Lara Croft from adventurer to survivor, creating an emotional and gripping origin story.',
-        content: `
+	},
+	{
+		id: "tomb-raider-2012",
+		title: "Tomb Raider (2012): Lara Croft Reborn",
+		date: "SEPTEMBER 8, 2024",
+		image: "images/tomb-raider-2012.jpeg",
+		excerpt:
+			"The reboot that transformed Lara Croft from adventurer to survivor, creating an emotional and gripping origin story.",
+		content: `
             <h1>Tomb Raider (2012): Lara Croft Reborn</h1>
             <img src="images/tomb-raider-2012.jpeg" alt="Tomb Raider 2012" class="blog-hero-image">
             
@@ -61,14 +64,15 @@ export const blogPosts = [
             
             <p>This reboot succeeded because it understood that great action-adventure games are built on strong characters and emotional stakes.</p>
         `
-    },
-    {
-        id: 'rise-tomb-raider',
-        title: 'Rise of the Tomb Raider: Siberian Survival',
-        date: 'AUGUST 25, 2024',
-        image: 'images/rise-tomb-raider.jpeg',
-        excerpt: 'Lara\'s second adventure takes her to the frozen wilderness of Siberia in search of divine immortality.',
-        content: `
+	},
+	{
+		id: "rise-tomb-raider",
+		title: "Rise of the Tomb Raider: Siberian Survival",
+		date: "AUGUST 25, 2024",
+		image: "images/rise-tomb-raider.jpeg",
+		excerpt:
+			"Lara's second adventure takes her to the frozen wilderness of Siberia in search of divine immortality.",
+		content: `
             <h1>Rise of the Tomb Raider: Siberian Survival</h1>
             <img src="images/rise-tomb-raider.jpeg" alt="Rise of the Tomb Raider" class="blog-hero-image">
             
@@ -82,14 +86,15 @@ export const blogPosts = [
             
             <p>Rise of the Tomb Raider is a perfect middle chapter that builds anticipation for Lara's full transformation while telling a complete story.</p>
         `
-    },
-    {
-        id: 'gtav',
-        title: 'Grand Theft Auto V: Los Santos Stories',
-        date: 'JULY 30, 2024',
-        image: 'images/GTAV.jpg',
-        excerpt: 'The massive open world of Los Santos provides endless opportunities for chaos, storytelling, and exploration.',
-        content: `
+	},
+	{
+		id: "gtav",
+		title: "Grand Theft Auto V: Los Santos Stories",
+		date: "JULY 30, 2024",
+		image: "images/GTAV.jpg",
+		excerpt:
+			"The massive open world of Los Santos provides endless opportunities for chaos, storytelling, and exploration.",
+		content: `
             <h1>Grand Theft Auto V: Los Santos Stories</h1>
             <img src="images/GTAV.jpg" alt="GTA V" class="blog-hero-image">
             
@@ -103,14 +108,15 @@ export const blogPosts = [
             
             <p>GTA V proves that open-world games can be both massive in scope and detailed in execution, creating experiences that feel truly limitless.</p>
         `
-    },
-    {
-        id: 'devil-may-cry-5',
-        title: 'Devil May Cry 5: Stylish Action Perfected',
-        date: 'JUNE 18, 2024',
-        image: 'images/devil-may-cry-5.jpg',
-        excerpt: 'The return of Dante, Nero, and the introduction of V brings the series back to its stylish action roots.',
-        content: `
+	},
+	{
+		id: "devil-may-cry-5",
+		title: "Devil May Cry 5: Stylish Action Perfected",
+		date: "JUNE 18, 2024",
+		image: "images/devil-may-cry-5.jpg",
+		excerpt:
+			"The return of Dante, Nero, and the introduction of V brings the series back to its stylish action roots.",
+		content: `
             <h1>Devil May Cry 5: Stylish Action Perfected</h1>
             <img src="images/devil-may-cry-5.jpg" alt="Devil May Cry 5" class="blog-hero-image">
             
@@ -124,14 +130,15 @@ export const blogPosts = [
             
             <p>DMC5 proves that stylish action games still have a place in modern gaming, offering mechanical depth and creative expression.</p>
         `
-    },
-    {
-        id: 'cod-black-ops',
-        title: 'Call of Duty: Black Ops - Cold War Thriller',
-        date: 'MAY 15, 2024',
-        image: 'images/cod-black-ops.jpg',
-        excerpt: 'A gripping Cold War narrative with memorable characters and intense military action sequences.',
-        content: `
+	},
+	{
+		id: "cod-black-ops",
+		title: "Call of Duty: Black Ops - Cold War Thriller",
+		date: "MAY 15, 2024",
+		image: "images/cod-black-ops.jpg",
+		excerpt:
+			"A gripping Cold War narrative with memorable characters and intense military action sequences.",
+		content: `
             <h1>Call of Duty: Black Ops - Cold War Thriller</h1>
             <img src="images/cod-black-ops.jpg" alt="Call of Duty Black Ops" class="blog-hero-image">
             
@@ -145,14 +152,15 @@ export const blogPosts = [
             
             <p>Black Ops proves that military shooters can tell sophisticated, psychologically complex stories while delivering intense action.</p>
         `
-    },
-    {
-        id: 'watch-dogs',
-        title: 'Watch Dogs: Digital Vigilante',
-        date: 'APRIL 22, 2024',
-        image: 'images/watch-dogs.jpg',
-        excerpt: 'Aiden Pearce\'s quest for revenge in a connected Chicago where everything can be hacked and controlled.',
-        content: `
+	},
+	{
+		id: "watch-dogs",
+		title: "Watch Dogs: Digital Vigilante",
+		date: "APRIL 22, 2024",
+		image: "images/watch-dogs.jpg",
+		excerpt:
+			"Aiden Pearce's quest for revenge in a connected Chicago where everything can be hacked and controlled.",
+		content: `
             <h1>Watch Dogs: Digital Vigilante</h1>
             <img src="images/watch-dogs.jpg" alt="Watch Dogs" class="blog-hero-image">
             
@@ -166,14 +174,15 @@ export const blogPosts = [
             
             <p>Watch Dogs introduced concepts and gameplay mechanics that have influenced open-world design ever since.</p>
         `
-    },
-    {
-        id: 'aer-memories',
-        title: 'AER: Memories of Old - Atmospheric Flight',
-        date: 'MARCH 10, 2024',
-        image: 'images/AER-Memories-of-Old.webp',
-        excerpt: 'A serene exploration game where you transform into a bird and explore floating islands filled with ancient mysteries.',
-        content: `
+	},
+	{
+		id: "aer-memories",
+		title: "AER: Memories of Old - Atmospheric Flight",
+		date: "MARCH 10, 2024",
+		image: "images/AER-Memories-of-Old.webp",
+		excerpt:
+			"A serene exploration game where you transform into a bird and explore floating islands filled with ancient mysteries.",
+		content: `
             <h1>AER: Memories of Old - Atmospheric Flight</h1>
             <img src="images/AER-Memories-of-Old.webp" alt="AER Memories of Old" class="blog-hero-image">
             
@@ -187,5 +196,5 @@ export const blogPosts = [
             
             <p>AER proves that not every game needs to be complex or demanding to be memorable. Sometimes the most powerful experiences come from simplicity and atmosphere.</p>
         `
-    }
-];
+	}
+]

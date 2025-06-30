@@ -1,17 +1,14 @@
-import React from "react";
-import useEffectOnUpdate from "./useEffectOnUpdate";
+import React from "react"
+import useEffectOnUpdate from "./useEffectOnUpdate"
 
-export default function useToggle({
-  defaultValue = false,
-  onToggle = () => {},
-}) {
-  const [on, setOn] = React.useState(defaultValue);
+export default function useToggle({ defaultValue = false, onToggle = () => {} }) {
+	const [on, setOn] = React.useState(defaultValue)
 
-  function toggle() {
-    setOn((prevOn) => !prevOn);
-  }
+	function toggle() {
+		setOn(prevOn => !prevOn)
+	}
 
-  useEffectOnUpdate(onToggle, [on]);
+	useEffectOnUpdate(onToggle, [on])
 
-  return [on, toggle];
+	return [on, toggle]
 }

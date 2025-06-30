@@ -1,11 +1,11 @@
-import Accordion from "./Accordion";
-import AccordionItem from "./AccordionItem";
-import AccordionTitle from "./AccordionTitle";
-import AccordionContent from "./AccordionContent";
-import "./Accordion.css";
+import Accordion from "./Accordion"
+import AccordionContent from "./AccordionContent"
+import AccordionItem from "./AccordionItem"
+import AccordionTitle from "./AccordionTitle"
+import "./Accordion.css"
 
-Accordion.Item = AccordionItem;
-Accordion.Title = AccordionTitle;
-Accordion.Content = AccordionContent;
+Accordion.Item = AccordionItem
+Accordion.Title = AccordionTitle
+Accordion.Content = AccordionContent
 
-export default Accordion;
+export default Accordion

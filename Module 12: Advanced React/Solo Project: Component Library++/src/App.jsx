@@ -1,29 +1,29 @@
-import AvatarDemo from "./Demo/AvatarDemo";
-import ButtonDemo from "./Demo/ButtonDemo";
-import BadgeDemo from "./Demo/BadgeDemo";
-import AccordionDemo from "./Demo/AccordionDemo";
-import ToggleDemo from "./Demo/ToggleDemo";
-import BannerDemo from "./Demo/BannerDemo";
-import "./App.css";
+import AccordionDemo from "./Demo/AccordionDemo"
+import AvatarDemo from "./Demo/AvatarDemo"
+import BadgeDemo from "./Demo/BadgeDemo"
+import BannerDemo from "./Demo/BannerDemo"
+import ButtonDemo from "./Demo/ButtonDemo"
+import ToggleDemo from "./Demo/ToggleDemo"
+import "./App.css"
 
 function App() {
-  return (
-    <>
-      <h1>Components Demo</h1>
+	return (
+		<>
+			<h1>Components Demo</h1>
 
-      <AvatarDemo />
+			<AvatarDemo />
 
-      <ButtonDemo />
+			<ButtonDemo />
 
-      <BadgeDemo />
+			<BadgeDemo />
 
-      <ToggleDemo />
+			<ToggleDemo />
 
-      <AccordionDemo />
+			<AccordionDemo />
 
-      <BannerDemo />
-    </>
-  );
+			<BannerDemo />
+		</>
+	)
 }
 
-export default App;
+export default App
