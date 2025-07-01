@@ -17,7 +17,7 @@ convertBtn.addEventListener("click", updateConversions)
 function updateConversions() {
 	const value = parseFloat(inputEl.value)
 
-	if (isNaN(value)) {
+	if (Number.isNaN(value)) {
 		return
 	}
 
