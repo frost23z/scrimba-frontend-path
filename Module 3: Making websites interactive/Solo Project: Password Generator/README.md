@@ -32,39 +32,14 @@ A sleek, modern password generator that creates secure, customizable passwords w
 3. When the "Generate passwords" button is clicked, two unique passwords are created
 4. Clicking on a password copies it to the clipboard using the Clipboard API
 
-## Code Structure
-
-- **index.html**: Main HTML structure and UI elements
-- **index.css**: Styling and responsive design
-- **index.js**: JavaScript logic for password generation and clipboard functionality
-
-## Technical Implementation
-
-The password generation algorithm:
-
-```javascript
-function generateRandomPassword() {
-    let password = ''
-    const charSet = getCharacterSet()
-    const passwordLength = parseInt(passwordLengthEl.value) || DEFAULT_PASSWORD_LENGTH
-
-    for (let i = 0; i < passwordLength; i++) {
-        const randomIndex = Math.floor(Math.random() * charSet.length)
-        password += charSet[randomIndex]
-    }
-
-    return password
-}
-```
-
 ## Security Considerations
 
 - All password generation happens locally in the browser
 - No passwords are stored or transmitted
 
-## Installation
+## Live Demo
 
-No installation required! Simply open the index.html file in any modern web browser.
+[View Live Demo](https://password-generator-27.netlify.app/)
 
 ## Credits
 
