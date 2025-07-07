@@ -2,7 +2,7 @@
 
 A modern, responsive restaurant ordering application built with vanilla JavaScript, HTML, and CSS. Features a beautiful UI with the Smythe font family and includes advanced functionality like discount system, and customer rating system.
 
-## 🌟 Features
+## Features
 
 ### Core Functionality
 
@@ -16,6 +16,10 @@ A modern, responsive restaurant ordering application built with vanilla JavaScri
 
 - **💰 Discount System**: Apply coupon for discount
 - **⭐ Rating System**: 5-star rating system for customer feedback
+
+## Live Demo
+
+[View Live Demo](https://restaurant-ordering-app-23.netlify.app/)
 
 ## Credits
 
