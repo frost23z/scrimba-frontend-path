@@ -29,42 +29,8 @@ A clean, responsive web application that converts between metric and imperial un
 4. Six conversion results are displayed in three categories
 5. Each section shows both metric-to-imperial and imperial-to-metric conversions
 
-## Code Structure
-
-- **index.html**: Main HTML structure and UI elements
-- **index.css**: Styling with dark theme and responsive design
-- **index.js**: JavaScript logic for handling conversions
-
-## Technical Implementation
-
-The conversion logic uses predefined formulas for accuracy:
-
-```javascript
-function convertUnits() {
-    const inputValue = Number(inputEl.value)
-
-    // Length conversions
-    const metersToFeet = (inputValue * 3.281).toFixed(3)
-    const feetToMeters = (inputValue / 3.281).toFixed(3)
-
-    // Volume conversions
-    const litersToGallons = (inputValue * 0.264).toFixed(3)
-    const gallonsToLiters = (inputValue / 0.264).toFixed(3)
-
-    // Mass conversions
-    const kilosToPounds = (inputValue * 2.204).toFixed(3)
-    const poundsToKilos = (inputValue / 2.204).toFixed(3)
-
-    // Update DOM elements with conversion results
-    lengthEl.textContent = `${inputValue} meters = ${metersToFeet} feet | ${inputValue} feet = ${feetToMeters} meters`
-    volumeEl.textContent = `${inputValue} liters = ${litersToGallons} gallons | ${inputValue} gallons = ${gallonsToLiters} liters`
-    massEl.textContent = `${inputValue} kilos = ${kilosToPounds} pounds | ${inputValue} pounds = ${poundsToKilos} kilos`
-}
-```
-
-## Installation
-
-No installation required! Simply open the index.html file in any modern web browser.
+## Live Demo
+[View Live Demo](https://unit-converter-23.netlify.app/)
 
 ## Credits
 
