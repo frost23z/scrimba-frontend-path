@@ -23,6 +23,10 @@ A React-based trivia quiz application that fetches questions from the Open Trivi
 5. After answering all questions, users can check their score and see correct answers
 6. Play again functionality allows users to start a new quiz with different questions
 
+## Live Demo
+
+[View Live Demo](https://quizzical-23.netlify.app/)
+
 ## Credits
 
 - Part of the Scrimba Frontend Developer Career Path
