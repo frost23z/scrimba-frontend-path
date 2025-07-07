@@ -28,9 +28,9 @@ A color scheme generator that helps designers and developers create harmonious c
 4. Generated color palette is displayed with hex values
 5. Users can copy hex values by clicking on them
 
-## Installation
+## Live Demo
 
-No installation required! Simply open the index.html file in any modern web browser.
+[View Live Demo](https://color-scheme-generator-27.netlify.app/)
 
 ## Credits
 
