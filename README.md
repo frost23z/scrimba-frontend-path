@@ -10,7 +10,7 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 3: Making websites interactive   | [Basketball Scoreboard](/Module%203:%20Making%20websites%20interactive/Solo%20Project:%20Basketball%20Scoreboard/)         | [Link](https://basketball-scoreboard-23.netlify.app/) |
 | Module 3: Making websites interactive   | [Password Generator](/Module%203:%20Making%20websites%20interactive/Solo%20Project:%20Password%20Generator/)               | [Link](https://password-generator-27.netlify.app/) |
 | Module 3: Making websites interactive   | [Unit Converter](/Module%203:%20Making%20websites%20interactive/Solo%20Project:%20Unit%20Converter/)                       | [Link](https://unit-converter-23.netlify.app/) |
-| Module 5: Essential CSS concepts        | [Oldagram](/Module%205:%20Essential%20CSS%20concepts/Solo%20Project:%20Oldagram/)                                          | -         |
+| Module 5: Essential CSS concepts        | [Oldagram](/Module%205:%20Essential%20CSS%20concepts/Solo%20Project:%20Oldagram/)                                          | [Link](https://oldagram-23.netlify.app/) |
 | Module 6: Essential JavaScript concepts | [Restaurant Ordering App](/Module%206:%20Essential%20JavaScript%20concepts/Solo%20Project:%20Restaurant%20Ordering%20app/) | -         |
 | Module 7: Responsive design             | [My Gaming Journey](/Module%207:%20Responsive%20design/Solo%20Project:%20My%20Gaming%20Journey/)                           | -         |
 | Module 9: Working with APIs             | [Color Scheme Generator](/Module%209:%20Working%20with%20APIs/Solo%20Project:%20Color%20Scheme%20Generator/)               | -         |

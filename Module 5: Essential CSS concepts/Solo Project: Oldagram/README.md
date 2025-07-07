@@ -25,6 +25,9 @@ A nostalgic Instagram-inspired web application showcasing art masterpieces in a 
 4. All interactions use JavaScript to update the UI in real-time
 5. Post data is structured similar to modern social media platforms
 
+## Live Demo
+[View Live Demo](https://oldagram-23.netlify.app/)
+
 ## Credits
 
 - Part of the Scrimba Frontend Developer Path
