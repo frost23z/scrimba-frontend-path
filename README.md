@@ -15,7 +15,7 @@ This repository contains my solo projects, course projects with my personalizati
 | Module 7: Responsive design             | [My Gaming Journey](/Module%207:%20Responsive%20design/Solo%20Project:%20My%20Gaming%20Journey/)                           | [Link](https://my-gaming-journey.netlify.app/) |
 | Module 9: Working with APIs             | [Color Scheme Generator](/Module%209:%20Working%20with%20APIs/Solo%20Project:%20Color%20Scheme%20Generator/)               | [Link](https://color-scheme-generator-27.netlify.app/) |
 | Module 9: Working with APIs             | [Movie Watchlist](/Module%209:%20Working%20with%20APIs/Solo%20Project:%20Movie%20Watchlist/)                               | [Link](https://movie-watchlist-23.netlify.app/) |
-| Module 11: React Basics                 | [Solo Project: Digital Business Card](/Module%2011:%20React%20basics/Solo%20Project:%20Digital%20Business%20Card/)         | -         |
+| Module 11: React Basics                 | [Solo Project: Digital Business Card](/Module%2011:%20React%20basics/Solo%20Project:%20Digital%20Business%20Card/)         | [Link](https://digital-business-card-23.netlify.app/) |
 | Module 11: React Basics                 | [Solo Project: Quizzical](/Module%2011:%20React%20basics/Solo%20Project:%20Quizzical/)                                     | -         |
 
 ## Course Projects
