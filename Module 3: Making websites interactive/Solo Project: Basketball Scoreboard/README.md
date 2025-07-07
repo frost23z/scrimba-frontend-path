@@ -39,39 +39,8 @@ A responsive, interactive basketball scoreboard with game management features.
 - **index.js**: JavaScript logic for score tracking, timer, and game management
 - **assets/**: Directory containing fonts and images
 
-## Technical Implementation
-
-The timer functionality uses JavaScript's setInterval for accurate time tracking:
-
-```javascript
-function startTimer() {
-    if (!timerRunning) {
-        timerInterval = setInterval(function () {
-            if (seconds > 0) {
-                seconds--
-            } else if (minutes > 0) {
-                minutes--
-                seconds = 59
-            } else {
-                clearInterval(timerInterval)
-                timerRunning = false
-                startBtn.textContent = 'START'
-            }
-            updateTimerDisplay()
-        }, 1000)
-        timerRunning = true
-        startBtn.textContent = 'PAUSE'
-    } else {
-        clearInterval(timerInterval)
-        timerRunning = false
-        startBtn.textContent = 'RESUME'
-    }
-}
-```
-
-## Installation
-
-No installation required! Simply open the index.html file in any modern web browser.
+## Live Demo
+[View Live Demo](https://basketball-scoreboard-23.netlify.app/)
 
 ## Credits
 
