@@ -8,6 +8,9 @@ A beautifully designed landing page showcasing the city of Mymensingh, Banglades
 - CSS3
 - Google Fonts (Roboto)
 
+## Live Demo
+[View Live Demo](https://hometown-homepage-23.netlify.app/)
+
 ## Credits
 
 - Part of the Scrimba Frontend Developer Path
