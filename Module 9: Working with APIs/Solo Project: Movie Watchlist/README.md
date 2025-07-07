@@ -24,11 +24,15 @@ A movie search and watchlist application that allows users to search for movies 
 ## How It Works
 
 1. User enters a movie title in the search input
-2. App makes API request to OMDb API to fetch movie data
+2. App makes API request to Netlify function (which proxies to OMDb API)
 3. Search results are displayed with movie details and "Add to Watchlist" buttons
 4. Users can add movies to their watchlist, which is saved to localStorage
 5. Watchlist page shows all saved movies with "Remove from Watchlist" options
 6. Data persists between browser sessions using localStorage
+
+## Live Demo
+
+[View Live Demo](https://movie-watchlist-23.netlify.app/)
 
 ## Credits
 

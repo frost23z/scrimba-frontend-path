@@ -1,7 +1,6 @@
 class MovieSearch {
 	constructor() {
-		this.apiKey = "24c559ae"
-		this.baseUrl = "https://www.omdbapi.com/"
+		this.baseUrl = "/.netlify/functions/omdb-proxy"
 
 		this.initializeElements()
 		this.bindEvents()
@@ -30,9 +29,7 @@ class MovieSearch {
 		this.showLoading()
 
 		try {
-			const response = await fetch(
-				`${this.baseUrl}?s=${encodeURIComponent(query)}&apikey=${this.apiKey}`
-			)
+			const response = await fetch(`${this.baseUrl}?s=${encodeURIComponent(query)}`)
 			const data = await response.json()
 
 			if (data.Response === "True") {
@@ -48,7 +45,7 @@ class MovieSearch {
 
 	async getMovieDetails(imdbID) {
 		try {
-			const response = await fetch(`${this.baseUrl}?i=${imdbID}&apikey=${this.apiKey}`)
+			const response = await fetch(`${this.baseUrl}?i=${imdbID}`)
 			const data = await response.json()
 			return data.Response === "True" ? data : null
 		} catch (error) {
