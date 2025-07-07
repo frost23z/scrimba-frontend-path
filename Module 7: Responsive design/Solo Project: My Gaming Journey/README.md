@@ -20,6 +20,10 @@ A personal gaming timeline showcasing my journey through various video games and
 - Media Queries
 - CSS Animations
 
+## Live Demo
+
+[View Live Demo](https://my-gaming-journey.netlify.app/
+
 ## Credits
 
 - Part of the Scrimba Frontend Developer Career Path
