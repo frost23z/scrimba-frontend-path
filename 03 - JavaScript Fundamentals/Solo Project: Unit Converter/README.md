@@ -2,8 +2,6 @@
 
 A clean, responsive web application that converts between metric and imperial units.
 
-![Unit Converter Dark Mode](demo.png)
-
 ## Features
 
 - **Instant Conversions**: Convert between metric and imperial units with a single click
@@ -12,14 +10,14 @@ A clean, responsive web application that converts between metric and imperial un
 - **Sleek Dark Mode**: Modern UI with a dark theme for better visibility
 - **Custom Input**: Enter any value to convert
 - **Precise Results**: All conversion values rounded to three decimal places
-- **Responsive Design**: Works well on all device sizes
 
-## Technologies Used
+## Live Demo
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Google Fonts (Inter)
+[View Live Demo](https://unit-converter-23.netlify.app/)
+
+## Preview
+
+![Unit Converter Dark Mode](/images/demo.png)
 
 ## How It Works
 
@@ -28,11 +26,3 @@ A clean, responsive web application that converts between metric and imperial un
 3. Clicking the "Convert" button triggers all conversion calculations
 4. Six conversion results are displayed in three categories
 5. Each section shows both metric-to-imperial and imperial-to-metric conversions
-
-## Live Demo
-[View Live Demo](https://unit-converter-23.netlify.app/)
-
-## Credits
-
-- Part of the Scrimba Frontend Developer Career Path
-- Font: [Inter](https://fonts.google.com/specimen/Inter) from Google Fonts
