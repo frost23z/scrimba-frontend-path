@@ -1,10 +1,14 @@
-# Amazon Landing Page (Simple Clone)
+# Amazon Product Page (Simple Clone)
 
-A simple Amazon book landing page clone built with HTML and CSS.
+A simple Amazon product page clone built with HTML and CSS.
+
+## View Live Demo
+
+[View Live Demo](https://amazon-product-page-23.netlify.app/)
 
 ## Preview
 
-![Amazon Landing Page](images/demo.png)
+![Amazon Product Page](images/demo.png)
 
 ## 🚀 How to Run
 
