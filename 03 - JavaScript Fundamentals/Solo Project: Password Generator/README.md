@@ -2,8 +2,6 @@
 
 A sleek, modern password generator that creates secure, customizable passwords with a click.
 
-![Password Generator Screenshot](demo.png)
-
 ## Features
 
 - **Generate Two Passwords Simultaneously**: Create two random passwords at once
@@ -16,12 +14,13 @@ A sleek, modern password generator that creates secure, customizable passwords w
 - **Visual Feedback**: Confirmation message appears when a password is copied
 - **Responsive Design**: Works on desktop and mobile devices
 
-## Technologies Used
+## Live Demo
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Google Fonts (Karla)
+[View Live Demo](https://password-generator-27.netlify.app/)
+
+## Preview
+
+![Password Generator Screenshot](demo.png)
 
 ## How It Works
 
@@ -36,12 +35,3 @@ A sleek, modern password generator that creates secure, customizable passwords w
 
 - All password generation happens locally in the browser
 - No passwords are stored or transmitted
-
-## Live Demo
-
-[View Live Demo](https://password-generator-27.netlify.app/)
-
-## Credits
-
-- Part of the Scrimba Frontend Developer Path
-- Font: [Karla](https://fonts.google.com/specimen/Karla) from Google Fonts
