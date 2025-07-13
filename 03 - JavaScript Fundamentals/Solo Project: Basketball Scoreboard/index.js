@@ -1,7 +1,8 @@
 let homeScore = 0
 let guestScore = 0
 let period = 1
-let timer = 600 // seconds
+const TIMER_DURATION = 600 // seconds (10 minutes)
+let timer = TIMER_DURATION
 let timerInterval = null
 let isPaused = false
 
@@ -10,37 +11,58 @@ const guestScoreEl = document.getElementById("guest-score")
 const periodEl = document.getElementById("period")
 const timerEl = document.getElementById("timer")
 const startTimerBtn = document.getElementById("start-timer")
-const resetTimerBtn = document.getElementById("reset-timer")
-const nextPeriodBtn = document.getElementById("next-period")
-const resetBtn = document.getElementById("reset")
-const newGameBtn = document.getElementById("new-game")
 
-function addHome1() {
-	addHomeScore(1)
-}
-function addHome2() {
-	addHomeScore(2)
-}
-function addHome3() {
-	addHomeScore(3)
-}
-function addGuest1() {
-	addGuestScore(1)
-}
-function addGuest2() {
-	addGuestScore(2)
-}
-function addGuest3() {
-	addGuestScore(3)
+function handleButtonClick(event) {
+	if (event.target.tagName !== "BUTTON") return
+
+	const buttonId = event.target.id
+
+	switch (buttonId) {
+		case "home-add-1":
+			addScore(1, "home")
+			break
+		case "home-add-2":
+			addScore(2, "home")
+			break
+		case "home-add-3":
+			addScore(3, "home")
+			break
+		case "guest-add-1":
+			addScore(1, "guest")
+			break
+		case "guest-add-2":
+			addScore(2, "guest")
+			break
+		case "guest-add-3":
+			addScore(3, "guest")
+			break
+		case "start-timer":
+			toggleTimer()
+			break
+		case "reset-timer":
+			resetTimer()
+			break
+		case "next-period":
+			nextPeriod()
+			break
+		case "reset":
+			resetScores()
+			break
+		case "new-game":
+			newGame()
+			break
+	}
 }
 
-function addHomeScore(points) {
-	homeScore += points
-	updateScores()
-}
+const container = document.querySelector(".container")
+container.addEventListener("click", handleButtonClick)
 
-function addGuestScore(points) {
-	guestScore += points
+function addScore(points, board) {
+	if (board === "home") {
+		homeScore += points
+	} else {
+		guestScore += points
+	}
 	updateScores()
 }
 
@@ -67,37 +89,37 @@ function resetScores() {
 }
 
 function newGame() {
-	resetScores() // Reset scores instead of duplicating code
+	resetScores()
 	period = 1
-	timer = 600
+	timer = TIMER_DURATION
 	stopTimer()
 	isPaused = false
-	updatePeriod() // Ensure period display is set to 1
+	updatePeriod()
 	updateTimer()
 	startTimerBtn.textContent = "Start"
 }
 
 function toggleTimer() {
-	// If timer is not running at all, start it
 	if (!timerInterval) {
-		startTimerBtn.textContent = "Pause"
-		isPaused = false
-		timerInterval = setInterval(() => {
-			if (!isPaused && timer > 0) {
-				timer--
-				updateTimer()
-			} else if (timer === 0) {
-				clearInterval(timerInterval)
-				timerInterval = null
-				startTimerBtn.textContent = "Start"
-			}
-		}, 1000)
-	}
-	// If timer is running, toggle between pause and resume
-	else {
+		startTimer()
+	} else {
 		isPaused = !isPaused
 		startTimerBtn.textContent = isPaused ? "Resume" : "Pause"
 	}
+}
+
+function startTimer() {
+	startTimerBtn.textContent = "Pause"
+	isPaused = false
+	timerInterval = setInterval(() => {
+		if (!isPaused && timer > 0) {
+			timer--
+			updateTimer()
+		} else if (timer === 0) {
+			stopTimer()
+			startTimerBtn.textContent = "Start"
+		}
+	}, 1000)
 }
 
 function updateTimer() {
@@ -107,7 +129,7 @@ function updateTimer() {
 }
 
 function resetTimer() {
-	timer = 600
+	timer = TIMER_DURATION
 	updateTimer()
 	stopTimer()
 	isPaused = false
