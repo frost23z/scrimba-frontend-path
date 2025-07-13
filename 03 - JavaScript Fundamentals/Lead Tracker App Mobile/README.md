@@ -8,14 +8,6 @@ A progressive web application for saving and managing important links and leads,
 - **Installable PWA**: Can be installed on home screen as a standalone mobile app
 - **Safety Delete**: Double-click confirmation required to delete all leads
 
-## Technologies Used
+## Live Demo
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Firebase Realtime Database
-- Progressive Web App (PWA) features
-
-## Credits
-
-- Part of the Scrimba Frontend Developer Path
+[Lead Tracker App Mobile](https://lead-tracker-app-23.netlify.app/)
