@@ -11,12 +11,13 @@ A modern and minimal counter application with a stylish interface.
 - **Responsive Design**: Adapts to different screen sizes with max-width container
 - **Persistent Tracking**: Saves previous entries for reference
 
-## Technologies Used
+## View Live Demo
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Google Fonts (Orbitron)
+[Live Demo](https://counter-app-233.netlify.app/)
+
+## Preview
+
+![Counter App Preview](/images/demo.png)
 
 ## How It Works
 
@@ -26,35 +27,10 @@ A modern and minimal counter application with a stylish interface.
 4. Clicking SAVE COUNT preserves the current count to the entry history
 5. Previous entries are displayed in a running list below the buttons
 
-## Code Structure
+## 🚀 How to Run
 
-- **index.html**: Main HTML structure and UI elements
-- **index.css**: Styling with gradients, custom fonts, and responsive design
-- **index.js**: JavaScript logic for counter functionality and saving entries
+1. Clone or download the project files
+2. Open `index.html` in your web browser
+3. The page will display the hometown homepage
 
-## Technical Implementation
-
-The counter uses simple JavaScript event listeners to track and display counts:
-
-```javascript
-function increment() {
-    count += 1
-    countEl.textContent = count
-}
-
-function save() {
-    let countStr = count + ' - '
-    saveEl.textContent += countStr
-    countEl.textContent = 0
-    count = 0
-}
-```
-
-## Installation
-
-No installation required! Simply open the index.html file in any modern web browser.
-
-## Credits
-
-- Part of the Scrimba Frontend Developer Path
-- Font: [Orbitron](https://fonts.google.com/specimen/Orbitron) from Google Fonts
+No build process or dependencies required - it's a pure HTML/CSS/JavaScript project!
