@@ -2,17 +2,14 @@
 
 A beautifully designed landing page showcasing the city of Mymensingh, Bangladesh.
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- Google Fonts (Roboto)
-
 ## Live Demo
+
 [View Live Demo](https://hometown-homepage-23.netlify.app/)
 
-## Credits
+## 🚀 How to Run
 
-- Part of the Scrimba Frontend Developer Path
-- Images sourced from web search
-- Font: [Roboto](https://fonts.google.com/specimen/Roboto) from Google Fonts
+1. Clone or download the project files
+2. Open `index.html` in your web browser
+3. The page will display the hometown homepage
+
+No build process or dependencies required - it's a pure HTML/CSS project!

@@ -2,6 +2,10 @@
 
 A simple web agency landing page built with HTML and CSS.
 
+## Live Demo
+
+[View Live Demo](https://web-agency-hero-23.netlify.app/)
+
 ## Preview
 
 ![Web Agency Hero](images/demo.png)
